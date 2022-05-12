@@ -14,10 +14,13 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## Preview 
 
+Using Note Taker
 ![exampleOfUsingNoteTaker](./assets/Note%20Taker.gif)
 
+Example of adding and deleting notes
 ![exampleOfAddingAndDeleting](./assets/Note-Taker-Add-Remove-Notes.gif)
 
+Example of stored data
 ![exampleOfJSON](./assets/JSON-DB-Example.jpg)
 
 ## Installation 
