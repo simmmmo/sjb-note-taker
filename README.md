@@ -11,6 +11,14 @@ I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
+## Preview 
+
+![exampleOfUsingNoteTaker](./assets/Note%20Taker.gif)
+
+![exampleOfAddingAndDeleting](./assets/Note-Taker-Add-Remove-Notes.gif)
+
+![exampleOfJSON](./assets/JSON-DB-Example.png)
+
 ## Installation 
 
 Local Installation
@@ -24,31 +32,29 @@ npm install
 ## Usage 
 Run 
 ```bash
-node index.js
+npm start
 ```
 
 Application wll confirm it is runnining in terminal. 
+```bash
 App listening at http://localhost:3001 🚀
+```
 
 Open http://localhost:3001 in your browser
 
-
-Example of command line inputs
-
-![exampleOfApplication](./screenshots/command-example.png)
-
-
-## Output 
-Generated README file is saved to ./output folder
-Example of generated README file. 
-
-![exampleREADME](./screenshots/simmmmo_sjb-README-Generator.gif)
+## Technology 
+Crypto module - to produce unique character string for the note ID
 
 
 ## Project Links
 * Walkthrough video link
 
-https://drive.google.com/file/d/145zBh3gOmuCT38eHxAT7V13BXiheNMpz/view
+https://drive.google.com/file/d/160sOoBxey8-NCffqtcD1Z7qxd1oFm1R6/view
+
+Add and remove notes
+
+https://drive.google.com/file/d/1I7w2NTsUwNi8BHANDJmhcjGDRv2lUnIi/view
+
 
 * Repo name
 
