@@ -17,9 +17,8 @@ Local Installation
 * Clone the repository from [Github](git@github.com:simmmmo/sjb-note-taker.git)
 * Ensure Node.js is installed
 * Install [express package](https://www.npmjs.com/package/express)
-Run 
 ```bash
-npm install express
+npm install
 ```
 
 ## Usage 
@@ -27,6 +26,12 @@ Run
 ```bash
 node index.js
 ```
+
+Application wll confirm it is runnining in terminal. 
+App listening at http://localhost:3001 🚀
+
+Open http://localhost:3001 in your browser
+
 
 Example of command line inputs
 

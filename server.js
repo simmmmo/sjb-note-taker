@@ -58,10 +58,7 @@ app.post('/api/notes', (req, res) => {
 app.delete('/api/notes/:id', (req, res) => {
   let noteList = JSON.parse(fs.readFileSync(dbData, 'utf8'));
   let noteId = (req.params.id).toString();
-
-  console.log(noteId);
-  console.log(noteList);
-  
+ 
     //A function to search for all note by id that dont match the deleted note and saves as a new array
     noteList = noteList.filter(selected =>{
       return selected.id != noteId;
@@ -73,8 +70,6 @@ app.delete('/api/notes/:id', (req, res) => {
     console.log("Your note has been deleted");
 
 });
-
-
 
 
 // Server Listener Port
