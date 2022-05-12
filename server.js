@@ -7,7 +7,12 @@ const dbData = './db/db.json';
 const crypto = require("crypto");
 
 
-const PORT = process.env.port || 3000;
+const port = process.env.PORT || 3000;
+const host = '0.0.0.0';
+
+
+
+// const PORT = process.env.port || 3000;
 const app = express();
 
 app.use(express.json());
@@ -71,6 +76,8 @@ app.delete('/api/notes/:id', (req, res) => {
 
 
 // Server Listener Port
-app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT} 🚀`)
-);
+// app.listen(PORT, () =>
+//   console.log(`App listening at http://localhost:${PORT} 🚀`)
+// );
+
+app.listen(port, host, ()=> console.log(`server is running on port ${port}`));
