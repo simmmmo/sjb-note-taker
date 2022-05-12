@@ -52,7 +52,7 @@ https://drive.google.com/file/d/145zBh3gOmuCT38eHxAT7V13BXiheNMpz/view
 
 * Repo name
 
-sjb-note-taker
+sjb-note-taker 
 
 * GitHub enviroment
 

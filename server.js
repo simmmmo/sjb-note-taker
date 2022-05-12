@@ -25,7 +25,7 @@ app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-//route to read the `db.json` file and return all saved notes as JSON.
+//GET route to read the json file and return all saved notes
 app.get('/api/notes', (req, res) => {
   res.sendFile(path.join(__dirname, '/db/db.json'));
 });
@@ -35,7 +35,7 @@ app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
- //A function to receive a new note to save, add it to the `db.json` file, 
+ //A function to receive a new note and ammend to json file
 app.post('/api/notes', (req, res) => {
 
   let newNote = {
