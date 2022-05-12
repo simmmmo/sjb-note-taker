@@ -14,18 +14,21 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## Preview 
 
-Using Note Taker
+###### Using Note Taker
+
 ![exampleOfUsingNoteTaker](./assets/Note%20Taker.gif)
 
-Example of adding and deleting notes
+###### Example of adding and deleting notes
+
 ![exampleOfAddingAndDeleting](./assets/Note-Taker-Add-Remove-Notes.gif)
 
-Example of stored data
+###### Example of stored data
+
 ![exampleOfJSON](./assets/JSON-DB-Example.jpg)
 
 ## Installation 
 
-Local Installation
+###### Local Installation
 * Clone the repository from [Github](git@github.com:simmmmo/sjb-note-taker.git)
 * Ensure Node.js is installed
 * Install [express package](https://www.npmjs.com/package/express)
@@ -35,10 +38,10 @@ npm install
 
 ## Usage 
 
-Live Environment 
+###### Live Environment 
 [Heroku](https://sjb-note-taker.herokuapp.com/)
 
-Local Environment 
+###### Local Environment 
 Run 
 ```bash
 npm start
@@ -61,7 +64,7 @@ Open http://localhost:3001 in your browser
 
 ## Project Links
 
-* Walkthrough video link
+###### Walkthrough video link
 
 https://drive.google.com/file/d/160sOoBxey8-NCffqtcD1Z7qxd1oFm1R6/view
 
@@ -70,11 +73,11 @@ Add and remove notes
 https://drive.google.com/file/d/1I7w2NTsUwNi8BHANDJmhcjGDRv2lUnIi/view
 
 
-Repo name
+###### Repo name
 
 * sjb-note-taker 
 
-GitHub enviroment
+###### GitHub enviroment
 
 * https://github.com/simmmmo/sjb-note-taker
 * git@github.com:simmmmo/sjb-note-taker.git
