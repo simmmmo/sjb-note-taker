@@ -49,10 +49,10 @@ npm start
 
 Application wll confirm it is runnining in terminal. 
 ```bash
-App listening at http://localhost:3001 🚀
+App listening at http://localhost:3000 🚀
 ```
 
-Open http://localhost:3001 in your browser
+Open http://localhost:3000 in your browser
 
 
 ## Technology 
